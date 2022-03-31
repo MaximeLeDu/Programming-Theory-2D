@@ -63,7 +63,7 @@ public class Player : Entity
 
     protected override void Die()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(0);
     }
 
     protected override void Knockback(Vector2 knockback)
